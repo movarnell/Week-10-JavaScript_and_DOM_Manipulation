@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/js/bootstrap.bundle.js">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row bg-danger border-bottom  border-dark">
+            <div class="col-lg-8 col-md-8 col-sm-12"><h4 class="display-4 text-black">FESD Coding Assignment</h4></div>
+            <div class="col-lg-1 d-sm-none"></div>
+            <div class="col-lg-4 col-md-4 col-sm-12 text-lg-end text-md-end"><p class="text-black fw-bold">Michael Varnell<br>Week 10</p></div>  
+        </div>
+        <div class="row bg-secondary">
+            <div class="col">
+                <p class="lead text-center">This project asks for a table to be created and the user to be able to enter information on that table. I am adding the button to delete as a bonus to try and learn this better. DOM has been interesting and frustrating.</p>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-lg-4 col-md border border-1 m-1 shadow-sm"><h4 class="display-6">This is dead area that will be filled with a picture or something</h4></div>
+            <div class="col-lg-8 col-md-7 border border-1 m-1 p-1">
+                <form action="submit">
+                    <label for="fName">First Name:</label>
+                    <input type="text" id="fName" name="fName"><br><br>
+                    <label for="lName">Last Name:</label>
+                    <input type="text" id="lName" name="lName"><br><br> 
+                    <label for="jobTitle">Job Title:</label>
+                    <input type="text" id="jobTitle" name="jobTitle"> <br><br>
+                    <button class="btn btn-danger mb-3 shadow border border-1 border-dark" id="create">Create Person</button>
+                </form>
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="container">
+            <table class="table table-responsive table-striped border border-3 border-dark ">
+                <tr class="bg-danger">
+                <th>Test</th>
+                <th>Data</th>
+                <th>Here</th>
+            </tr>
+            <tr>
+                <td>Michael</td>
+                <td>Varnell</td>
+                <td>RPSGT</td>
+            </tr>
+            <tr>
+                <td>Kelsie</td>
+                <td>Freeman</td>
+                <td>RPSGT</td>
+            </tr>
+            <tr>
+                <td>Alexi</td>
+                <td>Wilhite</td>
+                <td>RPSGT</td>
+            </tr>
+            </table>
+        </div>
+        </div>
+    </div>
+
+    
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
